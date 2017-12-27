@@ -278,7 +278,7 @@
 
 <div class="input-group">
     <label for="CountryDropDown1_ddlCountries" class="wb-inv">Where do you want to go?</label>
-    <select name="CountryDropDown1$ddlCountries" id="CountryDropDown1_ddlCountries" placeholder="Type in your destination" class="form-control" Title="Where do you want to go?">
+    <select name="CountryDropDown1$ddlCountries" id="CountryDropDown1_ddlCountries" placeholder="Type in your destination" onchange="location = this.value;" class="form-control" Title="Where do you want to go?">
 	<option value="">Select a destination</option>
 	<option value="afghanistan">Afghanistan</option>
 	<option value="albania">Albania</option>
@@ -379,7 +379,7 @@
 	<option value="iraq">Iraq</option>
 	<option value="ireland">Ireland</option>
 	<option value="israel-the-west-bank-and-the-gaza-strip">Israel, the West Bank and the Gaza Strip</option>
-	<option value="italy">Italy</option>
+	<option value="../destinations/italy.html">Italy</option>
 	<option value="jamaica">Jamaica</option>
 	<option value="japan">Japan</option>
 	<option value="jordan">Jordan</option>
@@ -413,7 +413,7 @@
 	<option value="mauritania">Mauritania</option>
 	<option value="mauritius">Mauritius</option>
 	<option value="mayotte">Mayotte</option>
-	<option value="mexico">Mexico</option>
+	<option value="../destinations/mexico.html">Mexico</option>
 	<option value="micronesia-fsm">Micronesia (FSM)</option>
 	<option value="moldova">Moldova</option>
 	<option value="monaco">Monaco</option>
@@ -510,9 +510,6 @@
 	<option value="zambia">Zambia</option>
 	<option value="zimbabwe">Zimbabwe</option>
 </select>
-    <span class="input-group-btn">
-        <button class="btn btn-default" id="btnGoToCountry" type="button">Go!</button>
-    </span>
 </div>
 
                         </div>
@@ -3828,44 +3825,6 @@
                 </main>
 
 
-
-<script>
-function randomlink(elem){
-var randomlinks=new Array()
-randomlinks[0]="http://www.loop11.com/usability-test/27493/introduction/"
-randomlinks[1]="https://uo2bu602.optimalworkshop.com/optimalsort/atvu7sd2-0"
-elem.href = randomlinks[Math.floor(Math.random()*randomlinks.length)];
-return false;
-}
-
-function randomlink2(elem){
-var randomlinks2=new Array()
-randomlinks2[0]="http://www.loop11.com/usability-test/27902/introduction/"
-randomlinks2[1]="https://uo2bu602.optimalworkshop.com/optimalsort/x0rfm3a1"
-elem.href = randomlinks2[Math.floor(Math.random()*randomlinks2.length)];
-return false;
-}
-</script>
-
-
-
-<!-- <script type="text/javascript" src="/vt/custom/js/caa_maps.js"></script> if we need it, it's here https://travel.gc.ca/vt/custom/js/caa_maps.js Look at Snoopcities from Weather to fix -->
-                <script type="text/javascript" src="/vt/custom/js/maplabel.js"></script>
-                <script type="text/javascript">
-                    var map;
-                    var layer;
-                    var tableid = '1-NcAAQWXzcYTQlVA7_kZnhtbdRgQfSKFsBYVOGM'; // CBC-original: 2465014;
-                    var lang = 'eng';
-                </script>
-                <script type="text/javascript">
-                    $(document).ready(function () {
-                        $(document).on('click', '#btnGoToCountry', function () {
-                            mySelection = $(this).parent().siblings("#CountryDropDown1_ddlCountries").find(":selected").val();
-                            window.location.href = "/destinations/" + mySelection;
-                            return false;
-                        });
-                    });
-                </script>
 
 
 <!-- Write closure template -->
