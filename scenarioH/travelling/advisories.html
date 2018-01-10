@@ -514,16 +514,16 @@
     </span>
 </div>
 
-<script type="javascript">
+             <script type="text/javascript">
+                    $(document).ready(function () {
+                        $(document).on('click', '#btnGoToCountry', function () {
+                            mySelection = $(this).parent().siblings("#CountryDropDown1_ddlCountries").find(":selected").val();
+                            window.location.href = "/destinations/" + mySelection;
+                            return false;
+                        });
+                    });
+                </script>
 
-	document.getElementById("btnGoToCountry").onclick = function() {
-		alert ("hi");
-		mySelection = $(this).parent().siblings("#CountryDropDown1_ddlCountries").find(":selected").val();
-		window.location.href = "/destinations/" + mySelection;
-		return false;
-	};
-
-</script>
 
                         </div>
                     </div>
