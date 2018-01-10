@@ -275,10 +275,9 @@
                     <div class="row">
                         <div class="col-md-4">
 
-
 <div class="input-group">
     <label for="CountryDropDown1_ddlCountries" class="wb-inv">Where do you want to go?</label>
-    <select name="CountryDropDown1$ddlCountries" id="CountryDropDown1_ddlCountries" placeholder="Type in your destination" onchange="location = this.value;" class="form-control" Title="Where do you want to go?">
+    <select name="CountryDropDown1$ddlCountries" id="CountryDropDown1_ddlCountries" placeholder="Type in your destination" class="form-control" Title="Where do you want to go?">
 	<option value="">Select a destination</option>
 	<option value="afghanistan">Afghanistan</option>
 	<option value="albania">Albania</option>
@@ -379,7 +378,7 @@
 	<option value="iraq">Iraq</option>
 	<option value="ireland">Ireland</option>
 	<option value="israel-the-west-bank-and-the-gaza-strip">Israel, the West Bank and the Gaza Strip</option>
-	<option value="../destinations/italy.html">Italy</option>
+	<option value="italy">Italy</option>
 	<option value="jamaica">Jamaica</option>
 	<option value="japan">Japan</option>
 	<option value="jordan">Jordan</option>
@@ -413,7 +412,7 @@
 	<option value="mauritania">Mauritania</option>
 	<option value="mauritius">Mauritius</option>
 	<option value="mayotte">Mayotte</option>
-	<option value="../destinations/mexico.html">Mexico</option>
+	<option value="mexico">Mexico</option>
 	<option value="micronesia-fsm">Micronesia (FSM)</option>
 	<option value="moldova">Moldova</option>
 	<option value="monaco">Monaco</option>
@@ -510,7 +509,21 @@
 	<option value="zambia">Zambia</option>
 	<option value="zimbabwe">Zimbabwe</option>
 </select>
+    <span class="input-group-btn">
+        <button class="btn btn-default" id="btnGoToCountry" type="button" >Go</button>
+    </span>
 </div>
+
+<script type="javascript">
+
+	document.getElementById("btnGoToCountry").onclick = function() {
+		alert ("hi");
+		mySelection = $(this).parent().siblings("#CountryDropDown1_ddlCountries").find(":selected").val();
+		window.location.href = "/destinations/" + mySelection;
+		return false;
+	};
+
+</script>
 
                         </div>
                     </div>
@@ -3822,8 +3835,8 @@
 </dl>
 </div>
 </div>
-                </main>
-
+</main>
+				
 
 
 
