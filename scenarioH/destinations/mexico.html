@@ -490,13 +490,13 @@ return false;
 <script type="text/javascript">
 $( document ).ready(function() {
 	setTimeout(function() {
-		$( "#risk-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Advisories',, 'true']);" );
-		$( "#security-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Security',, 'true']);" );
-		$( "#entryexit-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-EntryExit',, 'true']);" );
-		$( "#health-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Health',, 'true']);" );
-		$( "#laws-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Laws',, 'true']);" );
-		$( "#disasters-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Disasters',, 'true']);" );
-		$( "#assistance-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Italy-Assistance',, 'true']);" );
+		$( "#risk-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Advisories',, 'true']);" );
+		$( "#security-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Security',, 'true']);" );
+		$( "#entryexit-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-EntryExit',, 'true']);" );
+		$( "#health-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Health',, 'true']);" );
+		$( "#laws-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Laws',, 'true']);" );
+		$( "#disasters-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Disasters',, 'true']);" );
+		$( "#assistance-lnk" ).attr( "onclick", "_gaq.push(['_trackEvent', 'CAA-tabs-eng', 'click', 'Mexico-Assistance',, 'true']);" );
 		if ( document.location.href.indexOf('#assistance') > -1 ) {
 			$('.ha-office').attr('open', 'open');
 		}
@@ -504,12 +504,12 @@ $( document ).ready(function() {
 	    //if ( previousUrl.indexOf('eng/vaccines.aspx') > -1 ) {
 		if (previousUrl.indexOf('health-safety/vaccines') > -1) {
 		    var vaccines = $('summary:contains("Vaccines")');
-		    $(vaccines).append(' - Italy');
+		    $(vaccines).append(' - Mexico');
 			$(window).scrollTop($(vaccines).offset().top);
 			$(vaccines).closest('details').attr('open', 'open');
         }
 	}, 900);
-});
+}); 
 </script>
 
 
