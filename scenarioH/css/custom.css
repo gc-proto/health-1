@@ -17,7 +17,7 @@ h2 {
 h3 {
 	
 	font-size: 22px !important;
-	font-weight: 500 !important;
+	font-weight: 700 !important;
 	
 }
 
@@ -26,7 +26,7 @@ p, ul, li {
 	
 	font-size: 18px !important;
 	font-family: "Helvetica Neue", Arial, sans-serif !important; 
-      font-weight: 500 !important;
+      font-weight: 400 !important;
       -webkit-font-smoothing:antialiased;
 	  
 	 line-height: 32px !important;
