@@ -1,0 +1,44 @@
+h1 {
+	
+	font-size: 30px !important;
+	font-weight: medium !important;
+	font-family: "Helvetica Neue", Arial, sans-serif !important; 
+}
+
+h2 {
+	
+	font-size: 30px !important;
+	font-weight: medium !important;
+	font-family: "Helvetica Neue", Arial, sans-serif !important; 
+	
+}
+
+
+h3 {
+	
+	font-size: 22px !important;
+	font-weight: medium !important;
+	
+}
+
+
+p, ul, li {
+	
+	font-size: 18px !important;
+	font-family: "Helvetica Neue", Arial, sans-serif !important; 
+      font-weight: 100 !important;
+      -webkit-font-smoothing:antialiased;
+	  
+	 line-height: 32px !important;
+}
+
+
+.cust-breadcrumb {
+	
+	font-size: 16px !important;
+}
+
+.btn {
+	
+	font-size: 18px !important;
+}
