@@ -1,44 +1,70 @@
 h1 {
-	
+
 	font-size: 30px !important;
 	font-weight: 700 !important;
-	font-family: "Helvetica Neue", Arial, sans-serif !important; 
+	font-family: "Helvetica Neue", Arial, sans-serif !important;
 }
 
 h2 {
-	
+
 	font-size: 30px !important;
 	font-weight: 700 !important;
-	font-family: "Helvetica Neue", Arial, sans-serif !important; 	
+	font-family: "Helvetica Neue", Arial, sans-serif !important;
 	padding-bottom: 10px !important;
 }
 
 
 h3 {
-	
+
 	font-size: 22px !important;
 	font-weight: 700 !important;
-	
+
+}
+
+
+h4 {
+
+	font-size: 19px !important;
+	font-weight: 700 !important;
+
+}
+
+
+
+h5 {
+
+	font-size: 17px !important;
+	font-weight: 700 !important;
+
 }
 
 
 p, ul, li {
-	
+
 	font-size: 17px !important;
-	font-family: "Helvetica Neue", Arial, sans-serif !important; 
+	font-family: "Helvetica Neue", Arial, sans-serif !important;
       font-weight: 400 !important;
       -webkit-font-smoothing:antialiased;
-	  
-	 line-height: 30px !important;
+
+	 line-height: 28px !important;
 }
 
 
 .cust-breadcrumb {
-	
-	font-size: 16px !important;
+
+	font-size: 15px !important;
+
 }
 
-.btn {
-	
-	font-size: 20px !important;
+.breadcrumb {
+
+	margin-bottom: -10px !important;
+	padding-top: 2px !important;
+}
+
+
+.list-inline  {
+
+font-size: 16px !important;
+
 }
