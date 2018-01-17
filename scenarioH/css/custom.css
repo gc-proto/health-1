@@ -3,11 +3,13 @@ h1 {
 	font-size: 34px !important;
 	font-weight: 700 !important;
 	font-family: "Helvetica Neue", Arial, sans-serif !important;
+
 }
+
 
 h2 {
 
-	font-size: 30px !important;
+	font-size: 29px !important;
 	font-weight: 700 !important;
 	font-family: "Helvetica Neue", Arial, sans-serif !important;
 	padding-bottom: 10px !important;
@@ -35,6 +37,17 @@ h5 {
 
 	font-size: 17px !important;
 	font-weight: 700 !important;
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+h1 {
+		font-size: 30px !important;
+
+	}
 
 }
 
