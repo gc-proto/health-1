@@ -52,6 +52,16 @@ h1 {
 }
 
 
+/* On this page, reducing size as an h2*/
+.smh3 {
+
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	margin-bottom: 0px !important;
+
+}
+
+
 p, ul, li {
 
 	font-size: 17px !important;
@@ -63,12 +73,15 @@ p, ul, li {
 }
 
 
+/* font size in li of breadcrumb */
 .cust-breadcrumb {
 
 	font-size: 15px !important;
 
 }
 
+
+/* removing padding that pushes content down a lot */
 .breadcrumb {
 
 	margin-bottom: -10px !important;
@@ -76,8 +89,30 @@ p, ul, li {
 }
 
 
-.list-inline  {
+/* controls height of search-burger in mobile */
 
-font-size: 16px !important;
+.list-inline   {
+
+font-size: 15px !important;
+
+
+}
+
+/* menu items */
+
+.cust-small   {
+
+	margin-top: -3px !important;
+	font-size: 16px !important;
+
+
+}
+
+/* for the active menu item color */
+
+.cust-active   {
+
+	background-color: #8f8f8f !important;
+	border-color: #8f8f8f  !important;
 
 }
