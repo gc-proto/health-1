@@ -72,6 +72,14 @@ p, ul, li {
 	 line-height: 26px !important;
 }
 
+/* controls bullet spacing */
+
+.bullet {
+	
+	padding-top: 3px !important;	
+	padding-bottom: 3px !important;	
+	
+}
 
 /* font size in li of breadcrumb */
 .cust-breadcrumb {
