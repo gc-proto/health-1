@@ -66,7 +66,7 @@
 </section>
 <section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
 <h2>Search</h2>
-<form action="#" method="post" name="cse-search-box" role="search" class="form-inline">
+<form action="#" method="get" name="cse-search-box" role="search" class="form-inline">
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
@@ -436,7 +436,7 @@ from your province or territory.</p>
 
             </div>
         </section>
-        <form id="gc-rprt-prblm-form" method="post" action="/gc/services/generateemail">
+        <form id="gc-rprt-prblm-form" method="get" action="/gc/services/generateemail">
             <input type="hidden" name="pageTitle" value="Basic search">
             <input type="hidden" name="submissionPage" value="/content/canadasite/en/sr.html">
             <input type="hidden" name="lang" value="eng">
