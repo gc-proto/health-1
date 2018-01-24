@@ -64,12 +64,15 @@ h1 {
 
 p, ul, li {
 
-	font-size: 17px !important;
+
+	font-size: 19px !important;
 	font-family: "Helvetica Neue", Arial, sans-serif !important;
       font-weight: 400 !important;
       -webkit-font-smoothing:antialiased;
 
-	 line-height: 26px !important;
+	 line-height: 27px !important;
+
+
 }
 
 /* controls bullet spacing */
@@ -82,6 +85,7 @@ p, ul, li {
 }
 
 /* font size in li of breadcrumb */
+
 .cust-breadcrumb {
 
 	font-size: 15px !important;
@@ -120,7 +124,7 @@ font-size: 15px !important;
 
 .cust-active   {
 
-	background-color: #8f8f8f !important;
+	background-color: #4d4d4d !important;
 	border-color: #8f8f8f  !important;
 
 }
