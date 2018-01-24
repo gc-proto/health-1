@@ -62,6 +62,13 @@ h1 {
 }
 
 
+ul.menu {
+
+	font-size: 15px !important;
+	line-height: 25 !important;
+
+}
+
 p, ul, li {
 
 
@@ -74,6 +81,8 @@ p, ul, li {
 
 
 }
+
+
 
 /* controls bullet spacing */
 
@@ -103,7 +112,7 @@ p, ul, li {
 
 /* controls height of search-burger in mobile */
 
-.list-inline   {
+.list-inline  {
 
 font-size: 15px !important;
 
@@ -128,3 +137,5 @@ font-size: 15px !important;
 	border-color: #8f8f8f  !important;
 
 }
+
+
