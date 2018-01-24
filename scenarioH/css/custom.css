@@ -61,12 +61,10 @@ h1 {
 
 }
 
+ul.menu li {
 
-ul.menu {
-
-	font-size: 15px !important;
-	line-height: 25 !important;
-
+	font-size: 16px !important;
+	line-height: 22px !important;
 }
 
 p, ul, li {
