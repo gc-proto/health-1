@@ -9,7 +9,6 @@
                                 <!-- Load closure template scripts -->
                                 <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_25/cdts/compiled/soyutils.js"></script>
                                 <script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_25/cdts/compiled/wet-en.js"></script>
-								<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/wet-boew/js/deps/jquery.magnific-popup.min.js"></script>
 
                                 <!-- Write closure template -->
                                 <script type="text/javascript">
@@ -34,7 +33,7 @@
 <noscript><iframe title="Google Tag Manager" src="//www.googletagmanager.com/ns.html?id=GTM-TLGQ9K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer1'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer1','GTM-TLGQ9K');</script>
 <!-- End Google Tag Manager -->
-<ul id="wb-tphp" >
+<ul id="wb-tphp">
 <li class="wb-slc">
 <a class="wb-sl" href="#wb-cont">Skip to main content</a>
 </li>
@@ -42,21 +41,121 @@
 <a class="wb-sl" href="#wb-info">Skip to "About this site"</a>
 </li>
 </ul>
+<header role="banner">
+<div id="wb-bnr" class="container">
+<section id="wb-lng" class="visible-md visible-lg text-right">
+<h2 class="wb-inv">Language selection</h2>
+<div class="row">
+<div class="col-md-12">
+<ul class="list-inline margin-bottom-none">
+<li><a lang="fr" href="index-fr.html">Français</a></li>
+</ul>
+</div>
+</div>
+</section>
+<div class="row">
+<div class="brand col-xs-8 col-sm-9 col-md-6">
+<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="-1" data="./assets/sig-blk-en.svg"></object><span class="wb-inv"> Government of Canada</span></a>
+</div>
+<section class="wb-mb-links col-xs-4 col-sm-3 visible-sm visible-xs" id="wb-glb-mn">
+<h2>Search and menus</h2>
+<ul class="list-inline text-right chvrn">
+<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+</ul>
+<div id="mb-pnl"></div>
+</section>
+<section id="wb-srch" class="col-xs-6 text-right visible-md visible-lg">
+<h2>Search</h2>
 
-<header role="banner" style="background-color: black;">
-<div id="wb-bnr" class="container" >
+<form action="./search-results.html" method="get" name="cse-search-box" role="search" class="form-inline">
+
+  <style>
+
+  button#wb-srch-sub a:visited {
+
+  color: white !important;
 
 
+  }
 
-<p class="margin-bottom-none text-right pull-right" style="margin-top: 5px;">
-<a lang="fr" href="index-fr.html" style="color: white; font-size: 14px;">Français</a>
-</p>
 
+  button#wb-srch-sub a {
+
+  color: white !important;
+
+
+  }
+
+  </style>
+
+<div class="form-group">
+<label for="wb-srch-q" class="wb-inv">Search website</label>
+<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
+
+
+<datalist id="wb-srch-q-ac">
+<!--[if lte IE 9]><select><![endif]-->
+<!--[if lte IE 9]></select><![endif]-->
+</datalist>
+</div>
+<div class="form-group submit">
+
+
+<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><a href="./search-results.html"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button></a>
+
+
+</div>
+</form>
+</section>
+</div>
+</div>
+<nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+<div class="container nvbar">
+<h2>Topics menu</h2>
+<div class="row">
+<ul class="list-inline menu">
+<li><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
+<li><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
+<li><a href="https://travel.gc.ca/">Travel</a></li>
+<li><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
+<li><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
+<li><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
+<li><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
+<li><a href="./services.html">More services</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+
+<div class="mwspromotion section hidden-xs hidden-sm">
+<!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
+   <aside class="prm-flpr">
+        <div class="container chooseone"><div class="row">
+            <h3 class="wb-inv">Promotions</h3>
+			<div class="col-xs-12">
+				<a href="">
+					<img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
+				</a>
+			</div>
+            <div class="col-sm-8 col-xs-12">
+				<a href="sdf" class="learnmore">
+					RCMP Open House: meet the Musical Ride horses and riders and much more.
+				</a>
+			</div>
+
+		</div></div>
+    </aside>
+</div>
+
+  <main role="main" property="mainContentOfPage" class="container">
+            <div class="mwstext section"><h1 property="name" id="wb-cont" class="visible-xs visible-sm" style="margin-top: 10px;" >Canada.ca</h1>
+			<p class="visible-xs visible-sm">Services and information from the Government of Canada.</p>
+<section>
 
 
 <style>
-
-
 
 .hp {
 
@@ -80,339 +179,121 @@ background-color: #284162;
 
 }
 
-
-#cus-menu {
-
-
-
-background-color: #335075;
-white-space: nowrap;
-
-
-}
-
-div.scrollmenu {
-    background-color: #335075;
-    overflow: auto;
-    white-space: nowrap;
-	margin-left: 30px;
-
-
-}
-
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-	font-size: 17px;
-
-}
-
-div.scrollmenu a:hover {
-    background-color: #284162;
-}
-
-.adj {
-
-background-color: #335075;
- color: white;
-
-
-
-
-}
-
 </style>
 
+<div class="row visible-xs visible-sm" style="margin-top: 20px;" >
 
+<div class="col-xs-6 col-sm-6" style="padding-right: 2px;">
 
+<ul class="list-unstyled wxo-btn">
 
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Jobs</a>
+</li>
+<li>
+<a href="./travel.html" class="btn btn-default btn-block hp" >Travel</a>
+</li>
 
-<div class="col-xs-6 col-lg-2 col-md-1 col-sm-6" style="padding-top: 5px; padding-bottom: 5px; margin-left: -15px;">
-<a href="https://www.canada.ca/en.html"><object type="image/svg+xml" tabindex="" class="img-responsive" data="./assets/white-2.svg"></object><span class="wb-inv"> Government of Canada</span></a>
-</div>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Benefits</a>
+</li>
 
-<section class="wb-mb-links col-xs-4 col-sm-3 hidden-sm hidden-xs hidden-md hidden-lg" id="wb-glb-mn">
-<h2>Search and menus</h2>
-<ul class="list-inline text-right chvrn">
-<li><a href="#mb-pnl" title="Search and menus" aria-controls="mb-pnl" class="overlay-lnk" role="button"><span class="glyphicon glyphicon-search"><span class="glyphicon glyphicon-th-list"><span class="wb-inv">Search and menus</span></span></span></a></li>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp" >Taxes</a>
+</li>
+
 </ul>
-<div id="mb-pnl"></div>
-</section>
 
 </div>
 
+<div class="col-xs-6 col-sm-6" style="padding-left: 2px;">
 
+<ul class="list-unstyled visible-xs visible-sm wxo-btn">
 
-<nav role="navigation" id="wb-sm" data-ajax-replace="./ajax/sitemenu-en-2.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
-<div class="container nvbar">
-<h2>Topics menu</h2>
-<div class="row">
-<ul class="list-inline menu" style="border: none !important; text-decoration: none !important; color: white !important;">
-<li style="border: none !important;"><a href="http://www.esdc.gc.ca/en/jobs/index.page">Jobs</a></li>
-<li style="border: none !important;"><a href="http://www.cic.gc.ca/english/index.asp">Immigration</a></li>
-<li style="border: none !important;"><a href="https://travel.gc.ca/">Travel</a></li>
-<li style="border: none !important;"><a href="https://www.canada.ca/en/services/business.html">Business</a></li>
-<li style="border: none !important;"><a href="https://www.canada.ca/en/services/benefits.html">Benefits</a></li>
-<li style="border: none !important;"><a href="http://healthycanadians.gc.ca/index-eng.php">Health</a></li>
-<li style="border: none !important;"><a href="https://www.canada.ca/en/services/taxes.html">Taxes</a></li>
-<li style="border: none !important;"><a href="./services.html">More services</a></li>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp" >Immigration</a>
+
+</li>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Business</a>
+
+</li>
+<li>
+<a href="./services/health.html" class="btn btn-default btn-block hp">Health</a>
+</li>
+<li>
+<a href="./services.html" class="btn btn-default btn-block hp">All services</a>
+</li>
 </ul>
-</div>
-</div>
-</nav>
-
-
-
-
-
-
-
-
-</header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row visibile-md visible-xs visible-sm" style="background-color: #335075;" >
-
-<div id="cus-menu" class="scrollmenu">
-  <a href="">Jobs &nbsp &nbsp </a>
-  <a href="">Immigration &nbsp &nbsp </a>
-  <a href="./travel.html">Travel </a>
-  <a href="">&nbsp Business</a>
-  <a href="">Benefits</a>
-   <a href="./services/health.html">Health</a>
-   <a href="">Taxes</a>
-   <a href="./services.html">All services</a>
-
-</div>
-
-
-</div>
-
-
-<div class="adj row">
-
-
-<div class="container mrgn-bttm-lg">
-
-<h2 style="font-size: 35px; font-weight: 300 !important; margin-left: 17px !important; margin-top: 10px;" >Canada.ca</h2>
-
-<p style="margin-left: 17px !important; font-weight: 300 !important; margin-top: 20px !important;">Services and information from the Government of Canada.</p>
-
-
-
-<section id="wb-srch">
-
-<h2>Search</h2>
-
-
-<form action="./search-results.html" method="get" name="cse-search-box" role="search" class="form-inline">
-
-  <style>
-
-  button#wb-srch-sub a:visited {
-
-  color: white !important;
-
-
-  }
-
-
-  button#wb-srch-sub a {
-
-  color: white !important;
-
-
-  }
-
-  </style>
-
-
-<div class="form-group" style="margin-left: 15px !important;">
-<label for="wb-srch-q" class="wb-inv">Search website</label>
-<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control pull-left" name="q" type="search" value="" size="25" maxlength="" placeholder="Search Canada.ca">
-
-<button id="wb-srch-sub" style="background-color: black;" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-
-</div>
-</div>
-
-
-
-</form>
-
-
-</section>
-
-</div>
-
-
-
-
-
-
-<main role="main" property="mainContentOfPage" class="container">
-
-
-
-
-
-<div class="row" style="margin-top: -15px;">
-<div class="col-md-12">
- <h2>Most requested</h2>
 
 </div>
 
 </div>
-<div class="wb-eqht row hidden-xs">
 
- <section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="canada_e.html">Weather</a></h3>
+  <div class="row" style="margin-top: -15px;">
+  <div class="col-md-12">
+   <h2>Most requested</h2>
+
+   <!--
+   <div class="alert alert-info">
+    <p>Please help improve our website. <a href="http://fluidsurveys.com/surveys/neo2/esdc-feb-2016/langeng/">See if you qualify</a>.</p>
+   </div>
+   -->
+  </div>
+
+ </div>
+ <div class="wb-eqht row">
+
+   <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="canada_e.html">Weather</a></h3>
 
 
- <p>Latest weather, 24hr detailed forecast, and seven day forecast for locations across Canada. View local radar and satellite imagery.</p>
-    <details id="gps-jq">
-    <summary>Get weather for your location</summary>
-    <div id="GPSResults"></div>
+   <p>Latest weather, 24hr detailed forecast, and seven day forecast for locations across Canada. View local radar and satellite imagery.</p>
+			<details id="gps-jq">
+			<summary>Get weather for your location</summary>
+			<div id="GPSResults"></div>
 
 <!-- ACCESS CITY -->
 
- </details>
+   </details>
 
+    </section>
+
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/jobs/opportunities.html">Find a job</a></h3>
+   <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance.</p>
   </section>
-
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/jobs/opportunities.html">Find a job</a></h3>
- <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance. <br /> <br /> <br /></p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/ei.html">Employment Insurance</a></h3>
- <p>Employment Insurance (<abbr>EI</abbr>) for workers, sickness, fishing and family-related benefits. Apply and submit reports. <br /> <br /> <br /></p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/employment-social-development/services/my-account.html">My Service Canada Account</a></h3>
- <p>Secure access for Employment Insurance (<abbr>EI</abbr>), Canada Pension Plan (<abbr>CPP</abbr>), and Old Age Security (<abbr>OAS</abbr>).</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html">My Account for individuals – Canada Revenue Agency</a></h3>
- <p>Track your tax refund, view or change returns, check benefits and credit payments, view RRSP limit, set up direct deposit, and more.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></h3>
- <p>Eligibility criteria, benefit types, deciding when to take your pension, how to apply online and amounts. <br /> <br /></p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></h3>
- <p>Pension for 65 years of age or older, eligibility criteria, Guaranteed Income Supplement, allowance, deferments and program details.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/disability.html">Disability benefits</a></h3>
- <p>Living with a disability, child disability benefit, Veteran's disability award, savings plans and gasoline tax refund program.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
- <p>Renew your passport, passport applications, passport offices and processing times for renewals and new applications.</p>
-</section>
-
-</div>
-
-
-<div class="wb-eqht row visible-xs">
-
- <section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="canada_e.html">Weather</a></h3>
-
-
- <p>Latest weather, 24hr detailed forecast, and seven day forecast for locations across Canada. View local radar and satellite imagery.</p>
-    <details id="gps-jq">
-    <summary>Get weather for your location</summary>
-    <div id="GPSResults"></div>
-
-<!-- ACCESS CITY -->
-
- </details>
-
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/benefits/ei.html">Employment Insurance</a></h3>
+   <p>Employment Insurance (<abbr>EI</abbr>) for workers, sickness, fishing and family-related benefits. Apply and submit reports.</p>
   </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/employment-social-development/services/my-account.html">My Service Canada Account</a></h3>
+   <p>Secure access for Employment Insurance (<abbr>EI</abbr>), Canada Pension Plan (<abbr>CPP</abbr>), and Old Age Security (<abbr>OAS</abbr>).</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html">My Account for individuals – Canada Revenue Agency</a></h3>
+   <p>Track your tax refund, view or change returns, check benefits and credit payments, view RRSP limit, set up direct deposit, and more.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></h3>
+   <p>Eligibility criteria, benefit types, deciding when to take your pension, how to apply online and amounts.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></h3>
+   <p>Pension for 65 years of age or older, eligibility criteria, Guaranteed Income Supplement, allowance, deferments and program details.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/benefits/disability.html">Disability benefits</a></h3>
+   <p>Living with a disability, child disability benefit, Veteran's disability award, savings plans and gasoline tax refund program.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
+   <p>Renew your passport, passport applications, passport offices and processing times for renewals and new applications.</p>
+  </section>
+ </div>
 
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/jobs/opportunities.html">Find a job</a></h3>
- <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance. </p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/ei.html">Employment Insurance</a></h3>
- <p>Employment Insurance (<abbr>EI</abbr>) for workers, sickness, fishing and family-related benefits. Apply and submit reports.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/employment-social-development/services/my-account.html">My Service Canada Account</a></h3>
- <p>Secure access for Employment Insurance (<abbr>EI</abbr>), Canada Pension Plan (<abbr>CPP</abbr>), and Old Age Security (<abbr>OAS</abbr>).</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html">My Account for individuals – Canada Revenue Agency</a></h3>
- <p>Track your tax refund, view or change returns, check benefits and credit payments, view RRSP limit, set up direct deposit, and more.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp.html">Canada Pension Plan</a></h3>
- <p>Eligibility criteria, benefit types, deciding when to take your pension, how to apply online and amounts.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/publicpensions/cpp/old-age-security.html">Old Age Security pension</a></h3>
- <p>Pension for 65 years of age or older, eligibility criteria, Guaranteed Income Supplement, allowance, deferments and program details.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/benefits/disability.html">Disability benefits</a></h3>
- <p>Living with a disability, child disability benefit, Veteran's disability award, savings plans and gasoline tax refund program.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
- <p>Renew your passport, passport applications, passport offices and processing times for renewals and new applications.</p>
-</section>
-
-</div>
-
-
-<ul class="list-unstyled wxo-btn col-xs-6 col-lg-3 col-md-3" style="padding-left: 0px; margin-bottom: -10px; text-align: center !important; margin-top: 10px;">
+ <ul class="list-unstyled wxo-btn col-xs-6 col-lg-3 col-md-3" style="padding-left: 0px; margin-bottom: -10px; text-align: center !important; margin-top: 10px;">
 
 <li>
 <a href="./services.html" class="btn btn-default btn-block hp" style="text-align: center !important;">All services</a>
@@ -420,77 +301,46 @@ background-color: #335075;
 
 </ul>
 
+</section>
 
 <div class="clearfix"></div>
 <section>
-<h2>Focus on</h2>
-<div class="wb-eqht row">
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461766373625/1461766394598">Indigenous peoples</a></h3>
- <p>Funding, benefits and rights, education, training, jobs, health services, housing, justice and more for First Nations, Inuit and Métis. </p>
+ <h2>Focus on</h2>
+ <div class="wb-eqht row">
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="http://www.aadnc-aandc.gc.ca/eng/1461766373625/1461766394598">Indigenous peoples</a></h3>
+   <p>Funding, benefits and rights, education, training, jobs, health services, housing, justice and more for First Nations, Inuit and Métis. </p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/veterans.html">Veterans</a></h3>
+   <p>Benefits, healthcare, disability and other services for veterans, members of the Canadian Armed Forces or the <abbr title="Royal Canadian Mounted Police">RCMP</abbr> and their families.</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/youth.html">Youth</a></h3>
+   <p>Youth and student employment, education, Prime Minster's Youth Council, money management, and other programs for teenagers and young adults.</p>
+  </section>
+ </div>
 </section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/veterans.html">Veterans</a></h3>
- <p>Benefits, healthcare, disability and other services for veterans, members of the Canadian Armed Forces or the <abbr title="Royal Canadian Mounted Police">RCMP</abbr> and their families.</p>
-</section>
-<section class="col-lg-4 col-md-6">
- <h3 class="h5"><a href="/en/services/youth.html">Youth</a></h3>
- <p>Youth and student employment, education, Prime Minster's Youth Council, money management, and other programs for teenagers and young adults.</p>
-</section>
+
+<div class="mwspromotion section visible-xs visible-sm" style="padding-top: 15px;">
+<!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
+   <aside class="prm-flpr">
+        <div class="container chooseone"><div class="row">
+            <h3 class="wb-inv">Promotions</h3>
+			<div class="col-xs-12">
+				<a href="">
+					<img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
+				</a>
+			</div>
+            <div class="col-sm-8 col-xs-12">
+				<a href="sdf" class="learnmore">
+					RCMP Open House: meet the Musical Ride horses and riders and much more.
+				</a>
+			</div>
+
+		</div></div>
+    </aside>
 </div>
-</section>
-
-
-<style>
-
-.thumbnail {
-
-
-  border-color: #335075 !important;
-  border-width: 1px !important;
-  padding: 0px !important;
-}
-
-</style>
-
-<div class="row">
-
-<aside class="container mrgn-tp-lg">
-
-   <div id="gcwb_prts" class="wb-eqht row mrgn-bttm-lg">
-
-             <a href="#" rel="external">
-
-               <div class="col-lg-4 col-md-5 visible-sm visible-xs visible-md">
-                      <h3 class="h5">Government priorities</h3>
-
-                     </a>
-
-                     <p>Prime Minister delivers a formal apology in the House of Commons to LGBTQ2 Canadians.</p>
-               </div>
-
-
-        <div class="col-lg-8 mrgn-tp-md">
-          <a href="#" rel="external">
-
-               <img src="https://www.canada.ca/content/dam/canada/carousel/20171128-1-1170x347.jpg" alt="" class="img-responsive thumbnail mrgn-bttm-sm"> </a>
-        </div>
-
-        <div class="col-lg-4 hidden-sm hidden-xs hidden-md">
-
-          <a href="#" rel="external">
-
-               <h3 class="h5">Government priorities</h3>
-
-              </a>
-
-              <p>Prime Minister delivers a formal apology in the House of Commons to LGBTQ2 Canadians.</p>
-        </div>
-
-</aside>
-
-</div>
-
 
 
 
