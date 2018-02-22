@@ -10,7 +10,7 @@ h1 {
 
 h2 {
 
-	font-size: 30px !important;
+	font-size: 29px !important;
 	font-weight: 700 !important;
 	font-family: 'Open Sans', sans-serif; !important;
 	padding-bottom: 10px !important;
@@ -19,7 +19,7 @@ h2 {
 
 h3 {
 
-	font-size: 23px !important;
+	font-size: 22px !important;
 	font-weight: 700 !important;
 	font-family: 'Open Sans', sans-serif;
 
@@ -28,7 +28,7 @@ h3 {
 
 h4 {
 
-	font-size: 20px !important;
+	font-size: 19px !important;
 	font-weight: 700 !important;
 font-family: 'Open Sans', sans-serif;
 }
@@ -44,15 +44,15 @@ font-family: 'Open Sans', sans-serif;
 
 
 body, header, nav#wb-bc {
-
-
+	
+	
 	background-color: white !important;
 	font-family: 'Open Sans', sans-serif;
-
+	
 	}
 
-
-
+	
+	
 
 @media screen and (max-width: 991px) {
 
@@ -65,23 +65,11 @@ h1 {
 
 
 /* On this page, reducing size as an h2*/
-.onpage {
+.smh3 {
 
-	font-size: 20px !important;
+	font-size: 22px !important;
 	font-weight: 700 !important;
-	margin-bottom: 5px !important;
-
-}
-
-/* special size for h3s on a Task Template */
-.th3
-
-{
-
-	font-size: 30px !important;
-	font-weight: 700 !important;
-	padding-bottom: 10px !important;
-
+	margin-bottom: 0px !important;
 
 }
 
@@ -109,10 +97,10 @@ p, ul, li {
 /* controls bullet spacing */
 
 .bullet {
-
-	padding-top: 3px !important;
-	padding-bottom: 3px !important;
-
+	
+	padding-top: 3px !important;	
+	padding-bottom: 3px !important;	
+	
 }
 
 /* font size in li of breadcrumb */
@@ -135,10 +123,10 @@ p, ul, li {
 
 
 .list-group-item {
-
-
+	
+	
 background-color: #F8F8F8;
-
+	
 	}
 
 /* menu items */
@@ -147,7 +135,7 @@ background-color: #F8F8F8;
 
 	margin-top: -3px !important;
 	font-size: 16px !important;
-
+	
 
 
 }
@@ -160,3 +148,5 @@ background-color: #F8F8F8;
 	border-color: #8f8f8f  !important;
 
 }
+
+
