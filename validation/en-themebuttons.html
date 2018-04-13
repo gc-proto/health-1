@@ -129,8 +129,8 @@
 </header>
 
 
-<!-- <div class="mwspromotion section hidden-xs hidden-sm row" style="background: #eee; border-bottom: 1px solid #ddd;">
-
+<div class="mwspromotion section hidden-xs hidden-sm">
+<!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
    <aside class="prm-flpr">
         <div class="container chooseone"><div class="row">
             <h3 class="wb-inv">Promotions</h3>
@@ -141,42 +141,20 @@
 			</div>
             <div class="col-sm-8 col-xs-12">
 				<a href="sdf" class="learnmore">
-					<h5>RCMP Open House: meet the Musical Ride horses and riders and much more.</h5>
+					RCMP Open House: meet the Musical Ride horses and riders and much more.
 				</a>
 			</div>
 
 		</div></div>
     </aside>
-</div> -->
+</div>
 
   <main role="main" property="mainContentOfPage" class="container">
-            <div class="mwstext section"><h1 property="name" id="wb-cont" style="margin-top: 10px;" >Canada.ca</h1>
-			<p>Services and information from the Government of Canada.</p></main>
-<!-- <div class="mwstext section"><h1 property="name" id="wb-cont" class="visible-xs visible-sm" style="margin-top: 10px;" >Canada.ca</h1>
-			<p class="visible-xs visible-sm">Services and information from the Government of Canada.</p> -->
-
-      <div class="mwspromotion section" style="background: #eee; border-bottom: 1px solid #ddd;">
-      <!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
-         <aside class="prm-flpr">
-              <div class="container chooseone"><div class="row">
-                  <h3 class="wb-inv">Promotions</h3>
-      			<div class="col-xs-12">
-      				<a href="">
-      					<img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
-      				</a>
-      			</div>
-                  <div class="col-sm-8 col-xs-12">
-      				<a href="sdf" class="learnmore">
-      					<h5>RCMP Open House: meet the Musical Ride horses and riders and much more.</h5>
-      				</a>
-      			</div>
-
-      		</div></div>
-          </aside>
-      </div>
-
-  <main role="main" property="mainContentOfPage" class="container">
+            <div class="mwstext section"><h1 property="name" id="wb-cont" class="visible-xs visible-sm" style="margin-top: 10px;" >Canada.ca</h1>
+			<p class="visible-xs visible-sm">Services and information from the Government of Canada.</p>
 <section>
+
+
 <style>
 
 .hp {
@@ -203,27 +181,25 @@ background-color: #284162;
 
 </style>
 
-
-
-<div class="row visible-xs visible-sm" style="padding-top: 20px;" >
+<div class="row visible-xs visible-sm" style="margin-top: 20px;" >
 
 <div class="col-xs-6 col-sm-6" style="padding-right: 2px;">
 
 <ul class="list-unstyled wxo-btn">
 
-<li style="margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="/en/services/jobs/opportunities.html"  class="">Jobs</a>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Jobs</a>
 </li>
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="./travel.html" class="" >Travel</a>
-</li>
-
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="/en/services/jobs/opportunities.html" class="">Benefits</a>
+<li>
+<a href="./travel.html" class="btn btn-default btn-block hp" >Travel</a>
 </li>
 
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="/en/services/jobs/opportunities.html" class="" >Taxes</a>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Benefits</a>
+</li>
+
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp" >Taxes</a>
 </li>
 
 </ul>
@@ -234,19 +210,19 @@ background-color: #284162;
 
 <ul class="list-unstyled visible-xs visible-sm wxo-btn">
 
-<li style="margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="/en/services/jobs/opportunities.html" class="" >Immigration</a>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp" >Immigration</a>
 
 </li>
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="/en/services/jobs/opportunities.html" class="">Business</a>
+<li>
+<a href="/en/services/jobs/opportunities.html" class="btn btn-default btn-block hp">Business</a>
 
 </li>
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="./services/health.html" class="">Health</a>
+<li>
+<a href="./services/health.html" class="btn btn-default btn-block hp">Health</a>
 </li>
-<li style="margin-top: 12px !important; margin-bottom: 12px !important; font-size: 18px; font-weight: bold;">
-<a href="./services.html" class="">All services</a>
+<li>
+<a href="./services.html" class="btn btn-default btn-block hp">All services</a>
 </li>
 </ul>
 
@@ -254,13 +230,9 @@ background-color: #284162;
 
 </div>
 
-
-
-
-
-  <div class="row" style="">
+  <div class="row" style="margin-top: -15px;">
   <div class="col-md-12">
-
+   <h2>Most requested</h2>
 
    <!--
    <div class="alert alert-info">
@@ -277,11 +249,20 @@ background-color: #284162;
 
 
    <p>Latest weather, 24hr detailed forecast, and seven day forecast for locations across Canada. View local radar and satellite imagery.</p>
+			<details id="gps-jq">
+			<summary>Get weather for your location</summary>
+			<div id="GPSResults"></div>
 
+<!-- ACCESS CITY -->
+
+   </details>
 
     </section>
 
-
+  <section class="col-lg-4 col-md-6">
+   <h3 class="h5"><a href="/en/services/jobs/opportunities.html">Find a job</a></h3>
+   <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance.</p>
+  </section>
   <section class="col-lg-4 col-md-6">
    <h3 class="h5"><a href="/en/services/benefits/ei.html">Employment Insurance</a></h3>
    <p>Employment Insurance (<abbr>EI</abbr>) for workers, sickness, fishing and family-related benefits. Apply and submit reports.</p>
@@ -309,11 +290,6 @@ background-color: #284162;
   <section class="col-lg-4 col-md-6">
    <h3 class="h5"><a href="http://www.cic.gc.ca/english/residents/passport.asp">Get a passport</a></h3>
    <p>Renew your passport, passport applications, passport offices and processing times for renewals and new applications.</p>
-  </section>
-
-    <section class="col-lg-4 col-md-6">
-   <h3 class="h5"><a href="/en/services/jobs/opportunities.html">Find a job</a></h3>
-   <p>Jobs, hiring programs, work permits, Social Insurance Number, criminal record check and security clearance.</p>
   </section>
  </div>
 
@@ -346,7 +322,25 @@ background-color: #284162;
  </div>
 </section>
 
+<div class="mwspromotion section visible-xs visible-sm" style="padding-top: 15px;">
+<!-- in theory this would change among the different ones on each load, in practice it doesn't matter -->
+   <aside class="prm-flpr">
+        <div class="container chooseone"><div class="row">
+            <h3 class="wb-inv">Promotions</h3>
+			<div class="col-xs-12">
+				<a href="">
+					<img class="img-responsive" src="priorities-img/20180213-1-1170x347.jpg" alt="">
+				</a>
+			</div>
+            <div class="col-sm-8 col-xs-12">
+				<a href="sdf" class="learnmore">
+					RCMP Open House: meet the Musical Ride horses and riders and much more.
+				</a>
+			</div>
 
+		</div></div>
+    </aside>
+</div>
 
 
 
